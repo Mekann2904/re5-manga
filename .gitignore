@@ -1,0 +1,89 @@
+# 生成された画像ファイル
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# ただし、入力用のサンプル画像は除外しない
+!input.*
+!sample.*
+!test.*
+
+# デバッグ用画像
+debug_*.png
+debug_*.jpg
+
+# 出力画像
+output*.png
+output*.jpg
+*_manga.png
+*_manga.jpg
+*_line.png
+*_line.jpg
+*_edges.png
+*_edges.jpg
+*_highpass.png
+*_highpass.jpg
+*_levels.png
+*_levels.jpg
+grayscale_*.png
+enhanced_*.png
+normal_*.png
+strong_*.png
+ultra_*.png
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 仮想環境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS関連
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.temp
